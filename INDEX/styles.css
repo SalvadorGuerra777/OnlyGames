@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .menu {
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .boton {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4285f4;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .boton-esquinado {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #34a853;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  

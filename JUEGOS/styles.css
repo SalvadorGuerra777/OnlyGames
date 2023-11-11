@@ -1,0 +1,19 @@
+/* Estilos para el fondo del juego y el personaje */
+.game {
+    width: 800px;
+    height: 600px;
+    background-color: crimson; /* Color del cielo */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .personaje {
+    width: 164px; /* Ancho del sprite de Goku */
+    height: 164px; /* Altura del sprite de Goku */
+    background-image: url('/JUEGOS/goku.jpg'); /* Ruta de tu sprite de Goku */
+    position: absolute;
+    top: 50%; /* Posición inicial en el centro vertical */
+    left: 50%; /* Posición inicial en el centro horizontal */
+    background-position: 0 0; /* Posición inicial del sprite */
+  }
+  
